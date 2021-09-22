@@ -4,6 +4,7 @@ import {
   Switch, 
   Route,
   } from 'react-router-dom';
+  import StartPage from "../pages/StartPage";
 
 
 const App = () => {
@@ -14,16 +15,16 @@ const App = () => {
 
             <Switch>
             
-                <Route>
+                <Route exxact path="/">
 
-
+                      <StartPage />
 
                 </Route>
             
             </Switch>
         
         </Router> 
-    
+ 
     </>
   )
 }
