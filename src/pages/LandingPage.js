@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
 import BtnLogin from "../components/BtnLogin";
 import BgStart from "../assets/img/crunch-hero.png";
 
-const StartPage = () => {
+const LandingPage = () => {
     return (
         <>
 
@@ -31,7 +32,16 @@ const StartPage = () => {
                         
                         <input type="text" placeholder="Email Address" name="register"/>
                     
-                        <button> GET STARTED </button>
+
+
+                        <Link to="/register">
+
+                            <button> GET STARTED </button>
+
+                        </Link> 
+            
+
+
                     </div>
                 </div>
 
@@ -41,4 +51,4 @@ const StartPage = () => {
     )
 }
 
-export default StartPage
+export default LandingPage

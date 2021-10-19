@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const BtnLogin = () => {
     return (
         <div>
-            <button>LOGIN</button>
+
+            <Link to="/login">
+
+                <button>LOG IN</button>
+
+            </Link> 
+        
         </div>
     )
 }

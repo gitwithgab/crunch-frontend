@@ -39,6 +39,14 @@ button
     margin-left: 50px;
 }
 
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-height: 10vh;
+    width:100%;
+}
+
 /**********************START PAGE*************************/
 
 .start-page>div:nth-child(1)
@@ -47,7 +55,6 @@ button
     grid-template-columns: 1fr 1fr;
     min-height:10vh;
     align-items: center;
-   
 }
 
 .start-page>div:nth-child(1)>div:nth-child(2)
@@ -69,6 +76,7 @@ button
 
 .start-page>div:nth-child(2)>div
 {
+    background-color: #000000;
     color:#FFFFFF;
     font-size: 2rem;
     display: grid;
